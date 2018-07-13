@@ -89,7 +89,7 @@ Tip: Investigar el evento window.onload
       $(function(){
         alert("DOM is loaded")
       });
-      $( window ).load( function() {
+      $( window ).on("load", function() {
         alert("Images are fully loaded")
       });
     </script>
